@@ -12,6 +12,7 @@ export default class Mappings {
 		if (content.length) {
 			const segment = [this.generatedCodeColumn, sourceIndex, loc.line, loc.column];
 			if (nameIndex >= 0) {
+				// the token index of this chunk
 				segment.push(nameIndex);
 			}
 			this.rawSegments.push(segment);

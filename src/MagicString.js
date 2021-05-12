@@ -699,6 +699,8 @@ export default class MagicString {
 
 			if (chunk.end !== end) {
 				// special case...
+				// this happens when trimStart causes chunk's inner content been trimmed
+				// in return it causes a split
 				if (chunk === this.lastChunk) this.lastChunk = chunk.next;
 
 				this.byEnd[chunk.end] = chunk;

@@ -1,3 +1,30 @@
+
+## Notes
+
+* calc -n string index
+```
+		while (start < 0) start += this.original.length;
+		while (end < 0) end += this.original.length;
+```
+
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # magic-string
 
 <a href="https://travis-ci.org/Rich-Harris/magic-string">
